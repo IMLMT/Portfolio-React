@@ -31,16 +31,16 @@ function About() {
                 <div className="desc"><b>Software Engineer</b></div>
                 <div className="desc">
                   <p>
-                    Hi, I'm Mathew. I'm a former Automation Controls Software Engineer at Dow Chemical. <br />
+                    Hi, I'm Mathew. I'm a Softeware Developer at StateFarm - Digital Assets and Strategy (DAS). <br />
                   </p>
                 </div>
               </div>
               <div className="bottom">
                 <div className="underline" />
                 <ul className="social_links">
-                  <li className="resume animated bounceIn wow delay-04s animated" style={{visibility: 'visible', animationName: 'bounceIn'}}><a href="https://iilmtii.github.io/resume/"><i className="fa fa-file" /></a></li>
+                  <li className="resume animated bounceIn wow delay-04s animated" style={{visibility: 'visible', animationName: 'bounceIn'}}><a href="https://imlmt.github.io/resume/"><i className="fa fa-file" /></a></li>
                   <li className="linkedin animated bounceIn wow delay-02s animated" style={{visibility: 'visible', animationName: 'bounceIn'}}><a href="https://www.linkedin.com/in/iilmtii"><i className="fa fa-linkedin" /></a></li>
-                  <li className="github animated bounceIn wow delay-03s animated" style={{visibility: 'visible', animationName: 'bounceIn'}}><a href="https://github.com/IILMTII"><i className="fa fa-github" /></a></li>
+                  <li className="github animated bounceIn wow delay-03s animated" style={{visibility: 'visible', animationName: 'bounceIn'}}><a href="https://github.com/IMLMT"><i className="fa fa-github" /></a></li>
                 </ul>
               </div>
             </div>
