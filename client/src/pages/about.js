@@ -31,7 +31,7 @@ function About() {
                 <div className="desc"><b>Software Engineer</b></div>
                 <div className="desc">
                   <p>
-                    Hi, I'm Mathew. I'm a Softeware Developer at StateFarm - Digital Assets and Strategy (DAS). <br />
+                    Hi, I'm Mathew. I'm a Software Developer at StateFarm - Digital Assets and Strategy (DAS). <br />
                   </p>
                 </div>
               </div>
