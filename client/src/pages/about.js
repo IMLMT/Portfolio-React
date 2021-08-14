@@ -238,7 +238,7 @@ function About() {
                         <img src={codeme} alt="Portfolio 1" /> </div>
                       <figcaption>
                         <div>
-                          <a href="https://iilmtii.github.io/Code-Me/" className="fancybox">
+                          <a href="https://imlmt.github.io/Code-Me/" className="fancybox">
                             <h2><br /> Code-<span>Me</span></h2>
                             <p>An interesting coding repository...(prototype)</p>
                           </a>
@@ -256,7 +256,7 @@ function About() {
                         <img src={pgen} alt="Portfolio 1" /> </div>
                       <figcaption>
                         <div>
-                          <a href="https://iilmtii.github.io/Password-Generator/" className="fancybox">
+                          <a href="https://imlmt.github.io/Password-Generator/" className="fancybox">
                             <h2>Password <span>Generator</span></h2>
                             <p>A simple password generator for your securing needs !</p>
                           </a>
@@ -274,7 +274,7 @@ function About() {
                         <img src={eplanner} alt="Portfolio 1" /> </div>
                       <figcaption>
                         <div>
-                          <a href="https://iilmtii.github.io/Workday-Planner/" className="fancybox">
+                          <a href="https://imlmt.github.io/Workday-Planner/" className="fancybox">
                             <h2>Workday <span>Planner</span></h2>
                             <p>A daily schedule planner !</p>
                           </a>
@@ -292,7 +292,7 @@ function About() {
                         <img src={cquiz} alt="Portfolio 1" /> </div>
                       <figcaption>
                         <div>
-                          <a href="https://iilmtii.github.io/Code-Quiz/" className="fancybox">
+                          <a href="https://imlmt.github.io/Code-Quiz/" className="fancybox">
                             <h2>Code<br /><span>Quiz</span></h2>
                             <p>A witty quiz created from scratch ! </p>
                           </a>
@@ -310,7 +310,7 @@ function About() {
                         <img src={wdash} alt="Portfolio 1" /> </div>
                       <figcaption>
                         <div>
-                          <a href="https://iilmtii.github.io/Weather-Dashboard/" className="fancybox">
+                          <a href="https://imlmt.github.io/Weather-Dashboard/" className="fancybox">
                             <h2>Weather<span><br /> Dashboard</span></h2>
                             <p>It's sunny here...how's it over there ?</p>
                           </a>
