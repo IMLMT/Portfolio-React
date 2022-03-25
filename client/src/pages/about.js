@@ -10,6 +10,7 @@ import codeme from "../assets/img/code-me.png"
 import lovequest from "../assets/img/lovequest.png"
 import pgen from "../assets/img/pgen.png"
 import wdash from "../assets/img/wdash.png"
+import scart from "../assets/img/shoppingcart.JPG"
 
 function About() {
 
@@ -320,6 +321,24 @@ function About() {
                     {/*/Portfolio Item */}
                   </div>
                 </div>
+                <div className="col-lg-4">
+                  <div className="isotope fadeInLeft animated wow grid" style={{position: 'relative', overflow: 'hidden', height: '240px', width: '350px'}} id="portfolio_wrapper">
+                    {/* Portfolio Item */}
+                    <figure style={{position: 'absolute', left: '0px', top: '0px', transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1)', width: '337px', opacity: 1}} className="portfolio-item one-four   appleIOS isotope-item effect-oscar">
+                      <div className="portfolio_img">
+                        <img src={scart} alt="Portfolio 1" /> </div>
+                      <figcaption>
+                        <div>
+                          <a href="https://shopping-cart.herokuapp.com/" className="fancybox">
+                            <h2>Shopping <span>Cart</span></h2>
+                            <p>Shopping Cart demo...</p>
+                          </a>
+                        </div>
+                      </figcaption>
+                    </figure>
+                    {/*/Portfolio Item */}
+                  </div>
+                </div>
                 {/*/Portfolio Wrapper */}
               </div>
             </div>
@@ -333,41 +352,7 @@ function About() {
         </section>
         {/*/Portfolio */}
         {/*Footer*/}
-        <footer className="footer_wrapper" id="contact">
-          <div className="container">
-            <section className="page_section contact" id="contact">
-              <div className="contact_section">
-                <h2>Get In Touch</h2>
-              </div>
-              <div className="row" style={{display: 'inline'}}>
-                <div className="col-lg-8 wow fadeInLeft delay-06s">
-                  {/*NOTE: Update your email Id in "contact_me.php" file in order to receive emails from your contact form*/}
-                  <form name="sentMessage" id="contactForm" noValidate>
-                    <div className="control-group">
-                      <div className="controls">
-                        <input type="text" className="form-control" placeholder="Full Name" id="name" required data-validation-required-message="Please enter your name" />
-                        <p className="help-block" />
-                      </div>
-                    </div>
-                    <div className="control-group">
-                      <div className="controls">
-                        <input type="email" className="form-control" placeholder="Email" id="email" required data-validation-required-message="Please enter your email" />
-                      </div>
-                    </div>
-                    <div className="control-group">
-                      <div className="controls">
-                        <textarea rows={10} cols={100} className="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter your message" minLength={5} data-validation-minlength-message="Min 5 characters" maxLength={999} style={{resize: 'none'}} defaultValue={""} />
-                      </div>
-                    </div>
-                    <div id="success"> </div>
-                    {/* For success/fail messages */}
-                    <button type="submit" className="btn btn-primary pull-right">Send</button><br />
-                  </form>
-                </div>
-              </div>
-            </section>
-          </div>
-        </footer>
+        <footer></footer>
       </div>
     )
 }
