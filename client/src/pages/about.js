@@ -110,7 +110,8 @@ function About() {
                   <div className="service_icon delay-03s animated wow  zoomIn"> <span><i className="fa fa-code" /></span> </div>
                   <div className="service_block">
                     <h3 className="animated fadeInUp wow">Software Engineering</h3>
-                    <p className="animated fadeInDown wow">HTML5, CSS3, Bootstrap, JavaScript, Ruby, jQuery, AJAX and Node.js.</p>
+                    <p className="animated fadeInDown wow">Software Development: HTML5/CSS3, Bootstrap, JavaScript, jQuery/AJAX and Node.js.</p>
+                    <p className="animated fadeInDown wow">Data Engineering: Python, PySpark, Neo4j and AWS Native services.</p>
                   </div>
                 </div>
                 <div className="col-md-6">
@@ -131,6 +132,28 @@ function About() {
             <h6>Detailed, analytical and client-oriented professional seeking a software engineering position to pursue a successful career in software engineering; having 3 years of engineering experience and looking to join a progressive tech company where
               my technical skills will be fully harnessed.</h6>
             <div className="qa-message-list" id="wallmessages">
+
+            <div className="message-item" id="m16">
+                <div className="message-inner">
+                  <div className="message-head clearfix">
+                    <div className="user-detail">
+                      <h5 className="handle">State Farm Insurance</h5>
+                      <div className="post-meta">
+                        <div className="asker-meta">
+                          <span className="qa-message-what" />
+                          <span className="qa-message-when">
+                            <span className="qa-message-when-data">June 01, 2020 - Present</span>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="qa-message-content">
+                    Software Engineer II
+                  </div>
+                </div>
+              </div>
+
               <div className="message-item" id="m16">
                 <div className="message-inner">
                   <div className="message-head clearfix">
@@ -151,6 +174,7 @@ function About() {
                   </div>
                 </div>
               </div>
+
               <div className="message-item" id="m9">
                 <div className="message-inner">
                   <div className="message-head clearfix">
@@ -171,6 +195,7 @@ function About() {
                   </div>
                 </div>
               </div>
+
               <div className="message-item" id="m7">
                 <div className="message-inner">
                   <div className="message-head clearfix">
