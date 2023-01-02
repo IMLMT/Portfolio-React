@@ -40,7 +40,7 @@ function About() {
                 <div className="underline" />
                 <ul className="social_links">
                   <li className="resume animated bounceIn wow delay-04s animated" style={{visibility: 'visible', animationName: 'bounceIn'}}><a href="https://imlmt.github.io/resume/"><i className="fa fa-file" /></a></li>
-                  <li className="linkedin animated bounceIn wow delay-02s animated" style={{visibility: 'visible', animationName: 'bounceIn'}}><a href="https://www.linkedin.com/in/iilmtii"><i className="fa fa-linkedin" /></a></li>
+                  <li className="linkedin animated bounceIn wow delay-02s animated" style={{visibility: 'visible', animationName: 'bounceIn'}}><a href="https://www.linkedin.com/in/mathewlthomas/"><i className="fa fa-linkedin" /></a></li>
                   <li className="github animated bounceIn wow delay-03s animated" style={{visibility: 'visible', animationName: 'bounceIn'}}><a href="https://github.com/IMLMT"><i className="fa fa-github" /></a></li>
                 </ul>
               </div>
