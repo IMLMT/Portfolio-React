@@ -32,7 +32,7 @@ function About() {
               <div className="desc"><b>Software Engineer</b></div>
               <div className="desc">
                 <p>
-                  Hi, I'm Mathew. I'm a Software Engineer at StateFarm - Digital Experience (DE). <br />
+                  Hi, I'm Mathew. I'm a Senior Software Engineer at StateFarm - Data and AI. <br />
                 </p>
               </div>
             </div>
@@ -89,10 +89,7 @@ function About() {
           <div className="container">
             <br /><br />
             <h2>About Me</h2>
-            <h6>Creative, detailed, and analytical engineering professional seeking to pursue a successful
-              career in software engineering. Having more than 5 years of Software Development and Engineering
-              experience and looking to join a progressive tech company where my technical skills will be
-              fully harnessed.
+            <h6>Experienced software engineer with proven ability to quickly overcome challenges in the tech domain, having 8 years of Software Engineering and Development experience and open to opportunities where my technical skills will be fully harnessed.
               In my free time, I assemble and fix computer hardware, emulate systems through virtual machines or use homebrew emulators for legacy videogames.
             </h6>
           </div>
@@ -103,15 +100,24 @@ function About() {
       <section id="service">
         <div className="container">
           <h2>Skills</h2>
-          <h6>Proficient in front-end &amp; back-end software engineering technologies and DCS control system software engineering development.</h6>
+          <h6>Proficient in architecting full-stack and cloud-based data solutions, with additional experience in DCS control system software engineering.</h6>
           <div className="service_wrapper">
             <div className="row">
               <div className="col-md-6">
                 <div className="service_icon delay-03s animated wow  zoomIn"> <span><i className="fa fa-code" /></span> </div>
                 <div className="service_block">
+                  <h3 className="animated fadeInUp wow">Architecture & Operations</h3>
+                  <p className="animated fadeInDown wow">ETL & Pipelines: Hybrid Sync/Async architecture, event-driven pipelines, batch processing, data modeling, GitOps automation</p>
+                  <p className="animated fadeInDown wow">Monitoring & Reliability: Dynatrace, Datadog, AWS CloudWatch</p>
+                </div>
+                <div className="service_block">
+                  <h3 className="animated fadeInUp wow">Data & Cloud Engineering</h3>
+                  <p className="animated fadeInDown wow">Cloud & Data Platforms: AWS (Glue, Lambda, SNS/SQS, Redshift, S3, EventBridge), Azure (ADF, Synapse, Serverless SQL), Terraform (IaC), Python, PySpark, Neo4j</p>
+                  <p className="animated fadeInDown wow">Data Engineering: Python, PySpark, Neo4j, AWS Native services</p>
+                </div>
+                <div className="service_block">
                   <h3 className="animated fadeInUp wow">Software Engineering</h3>
-                  <p className="animated fadeInDown wow">Software Development: HTML5/CSS3, Bootstrap, JavaScript, jQuery/AJAX and Node.js.</p>
-                  <p className="animated fadeInDown wow">Data Engineering: Python, PySpark, Neo4j and AWS Native services.</p>
+                  <p className="animated fadeInDown wow">Software Development: HTML5/CSS3, Bootstrap, JavaScript, jQuery/AJAX, Node.js</p>
                 </div>
               </div>
               <div className="col-md-6">
@@ -149,7 +155,7 @@ function About() {
                   </div>
                 </div>
                 <div className="qa-message-content">
-                  Software Engineer II
+                  Senior Software Engineer
                 </div>
               </div>
             </div>
@@ -226,7 +232,7 @@ function About() {
           {/* Title */}
           <div className="section-title">
             <h2>Projects</h2>
-            <h6>Here's some of my work. Please check them out !</h6>
+            <h6>Here's some of my work while I was at UT Austin Coding Bootcamps. Please check them out !  <br />(PS: My current day-to-day work is much more complex !)</h6>
           </div>
           {/*/Title */}
         </div>
@@ -238,24 +244,6 @@ function About() {
           <div className="container">
             <div className="row">
               {/* Portfolio Wrapper */}
-              <div className="col-lg-4">
-                <div className="isotope fadeInLeft animated wow grid" style={{ position: 'relative', overflow: 'hidden', height: '240px', width: '350px' }} id="portfolio_wrapper">
-                  {/* Portfolio Item */}
-                  <figure style={{ position: 'absolute', left: '0px', top: '0px', transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1)', width: '337px', opacity: 1 }} className="portfolio-item one-four   appleIOS isotope-item effect-oscar">
-                    <div className="portfolio_img">
-                      <img src={lovequest} alt="Portfolio 2" /> </div>
-                    <figcaption>
-                      <div onclick="warning()">
-                        <a href="https://morning-fjord-37921.herokuapp.com/" className="fancybox">
-                          <h2><br /> Love<span>Quest</span></h2>
-                          <p>Find your forever Lovequester ! (A dating website)</p>
-                        </a>
-                      </div>
-                    </figcaption>
-                  </figure>
-                  {/*/Portfolio Item */}
-                </div>
-              </div>
               <div className="col-lg-4">
                 <div className="isotope fadeInLeft animated wow grid" style={{ position: 'relative', overflow: 'hidden', height: '240px', width: '350px' }} id="portfolio_wrapper">
                   {/* Portfolio Item */}
@@ -339,24 +327,6 @@ function About() {
                         <a href="https://imlmt.github.io/Weather-Dashboard/" className="fancybox">
                           <h2>Weather<span><br /> Dashboard</span></h2>
                           <p>It's sunny here...how's it over there ?</p>
-                        </a>
-                      </div>
-                    </figcaption>
-                  </figure>
-                  {/*/Portfolio Item */}
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="isotope fadeInLeft animated wow grid" style={{ position: 'relative', overflow: 'hidden', height: '240px', width: '350px' }} id="portfolio_wrapper">
-                  {/* Portfolio Item */}
-                  <figure style={{ position: 'absolute', left: '0px', top: '0px', transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1)', width: '337px', opacity: 1 }} className="portfolio-item one-four   appleIOS isotope-item effect-oscar">
-                    <div className="portfolio_img">
-                      <img src={scart} alt="Portfolio 1" /> </div>
-                    <figcaption>
-                      <div>
-                        <a href="https://shopping-cart.herokuapp.com/" className="fancybox">
-                          <h2>Shopping <span>Cart</span></h2>
-                          <p>Shopping Cart demo...</p>
                         </a>
                       </div>
                     </figcaption>
